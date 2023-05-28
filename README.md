@@ -16,3 +16,9 @@ The functions automatically use the available CPU cores and create and close the
                    └─────►Process├─────┘          └───────►Process├─────┘
                          └───────┘                        └───────┘
 
+- [x] Drain receives each value from an input channel and does something with it.
+- [x] Generate sends each value to the out channel.
+- [x] Merge sends each value from a list of input channels to the out channel.
+- [x] Multiplex sends each value from an input channel to every output channel.
+- [x] Process works on each value from an input channel and sends the result to an output channel.
+- [x] Split sends each value from an input channel to one of the output channels.
